@@ -15,3 +15,7 @@ null_val = null_val[null_val].index.tolist()
 print(null_val)
 # out --> [(2, 'name'), (3, 'age')]
 ```
+
+# How to run your Project in Rancher Kubernetes Cluster ?
+
+
