@@ -23,7 +23,7 @@ print(null_val)
 ```bash
 kubectl create namespace <my-namespace>
 ```
-to confirm that namespace is created:
+- to confirm that namespace is created:
 ```bash
 kubectl get namespaces
 ```
@@ -32,7 +32,7 @@ kubectl get namespaces
 ```bash
 kubectl create configmap <my-config> --from-env-file=.env -n <my-namespace>
 ```
-confirm it has been created:
+- confirm it has been created:
 ```bash
 kubectl get configmaps -n <my-namespace>
 ```
@@ -99,7 +99,7 @@ kubectl get jobs -n <my-namespace>
 ```bash
 kubectl logs -f <pod-name> -n <my-namespace>
 ```
- to get pod name:
+ - to get pod name:
  ```bash
 kubectl get pods -n <my-namespace>
 ```
