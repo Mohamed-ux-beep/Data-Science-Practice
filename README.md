@@ -107,7 +107,7 @@ kubectl get pods -n <my-namespace>
 ```bash
 kubectl delete job download-data-job -n <my-namespace>
 ```
-# What does du -sh and ls -lh mean?
+# What does `du -sh` and `ls -lh` mean?
 
 ```bash
 du -sh
