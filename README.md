@@ -106,3 +106,14 @@ kubectl get pods -n <my-namespace>
 - Clean up : delete the job
 ```bash
 kubectl delete job download-data-job -n <my-namespace>
+```
+# What does du -sh and ls -lh mean?
+
+```bash
+du -sh
+ls -lh
+```
+- du stands for disk usage and -s for size and h for human readable , it is used to get the size of folder
+- ls stands for lists , -l as a list , h for human readable
+
+
