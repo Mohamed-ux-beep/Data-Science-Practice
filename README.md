@@ -116,4 +116,12 @@ ls -lh
 - du stands for disk usage and -s for size and h for human readable , it is used to get the size of folder
 - ls stands for lists , -l as a list , h for human readable
 
+# How to know in which name space you are in and how to switch? 
 
+```bash
+kubectl config get-contexts
+```
+and to switch : 
+```bash
+kubectl config set-context --current --namespace=<my-namespace>
+```
