@@ -125,3 +125,26 @@ and to switch :
 ```bash
 kubectl config set-context --current --namespace=<my-namespace>
 ```
+# How to get all other team members branchs? 
+```bash
+git fetch origin
+```
+
+# How to show all branchs you have? 
+```bash
+git branch -a
+```
+
+# How to delete branch (not local branch)?
+```bash
+git push origin --delete <branch-name>
+```
+
+# How to merge a branch into the main? 
+```bash
+git fetch origin
+git checkout -b <feature-branch> origin/<feature-branch>
+git checkout main
+git merge <feature-branch>
+git push origin main
+```
